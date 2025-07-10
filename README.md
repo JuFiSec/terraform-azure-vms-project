@@ -74,12 +74,6 @@ az account set --subscription "VOTRE_ID_DE_SOUSCRIPTION"
     terraform apply
     ```
 
-## 📸 Captures d'écran
-
-Voici une capture d'écran montrant la sortie de la commande `terraform apply` une fois le déploiement terminé avec succès.
-
-![Sortie de Terraform Apply](screenshots/terraform-apply-success.png)
-
 
 ## 📄 Licence
 
