@@ -1,0 +1,18 @@
+# Fichiers d'état locaux de Terraform - CONTIENNENT DES SECRETS POTENTIELS !
+*.tfstate
+*.tfstate.*.backup
+
+# Fichiers de variables locaux - CONTIENNENT VOS SECRETS !
+*.tfvars
+*.tfvars.json
+
+# Répertoire .terraform - Contient les plugins et modules, il est regénéré avec "terraform init"
+.terraform/
+
+# Fichiers de logs en cas de crash
+crash.log
+crash.*.log
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
